@@ -1,7 +1,7 @@
 <template>
   <div class="navBar-container">
     <div class="Center">
-      <router-link class="menu" to="/home">Home</router-link>
+      <router-link class="menu" to="/">Home</router-link>
       <router-link class="menu" to="/about">About</router-link>
       <img src="../assets/Logo.png" />
       <router-link class="menu" to="/Project">Project</router-link>

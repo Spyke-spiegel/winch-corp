@@ -26,6 +26,7 @@
 .bg {
   width: 100vw;
   height: 50vh;
+  object-fit: cover;
 }
 
 .box {
@@ -63,5 +64,13 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (min-width: 1300px) {
+  .box {
+    background-color: #343434;
+    width: 50vw;
+    height: 100vh;
+  }
 }
 </style>

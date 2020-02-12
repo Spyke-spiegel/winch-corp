@@ -5,7 +5,7 @@
     </div>
     <div class="box">
       <H1>Winch Corp is an IT consultancy firm based in Hong Kong focused on helping our clients to simplify their IT infrastructure</H1>
-      <H2>Our main focus</H2>
+      <H2>Our main activity :</H2>
       <table>
         <tr>
           <th>
@@ -28,7 +28,7 @@
           </th>
           <th>
             <i class="fas fa-memory"></i>
-            <h3>Infrastructure upgrade</h3>
+            <h3>Hardware upgrade</h3>
           </th>
           <th>
             <i class="fas fa-users"></i>
@@ -55,7 +55,7 @@ export default {
 <style>
 .background {
   height: 80vh;
-  width: auto;
+  width: 100vw;
 }
 
 .container {
@@ -82,15 +82,20 @@ export default {
 
 h2 {
   font-size: 30px;
-  margin: 50px;
+  margin-top: 50px;
 }
 
 table {
   width: 100%;
+  padding: 50px;
 }
 
-table > tr {
+tr {
   margin: 25px;
+}
+
+th {
+  width: 33%;
 }
 
 i {
@@ -99,9 +104,6 @@ i {
 
 h3 {
   margin-bottom: 25px;
-}
-
-.table {
-  padding: 50px;
+  margin-top: 15px;
 }
 </style>
